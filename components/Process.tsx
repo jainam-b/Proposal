@@ -26,7 +26,7 @@ export function Process() {
   const isInView = useInView(containerRef, { once: true, margin: "-100px" })
 
   return (
-    <section className="bg-black py-24 px-4" ref={containerRef}>
+    <section className="bg-black py-16 px-4" ref={containerRef}>
       <div className="max-w-7xl mx-auto">
         <motion.h2 
           className="text-5xl md:text-6xl font-bold text-center mb-24"
